@@ -31,4 +31,3 @@ function conectar()
     return $conexion;
  
 }
-?>
