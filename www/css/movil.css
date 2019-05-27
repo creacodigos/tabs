@@ -1,0 +1,26 @@
+
+  @media screen and (max-width:1280px) {
+
+    body{
+        font-size: 1.2em;
+    }
+
+    table#tablaDatos tr th:nth-child(4),
+    table#tablaDatos tr th:nth-child(5),
+    table#tablaDatos tr td:nth-child(4),
+    table#tablaDatos tr td:nth-child(5),
+    section#formulario{
+    display: none;
+  }
+
+  table#tablaDatos td,
+  table#tablaDatos th
+  {
+    padding: 0.5em;
+  }
+
+  body,
+  section{
+    padding: 0px;
+  }
+}
